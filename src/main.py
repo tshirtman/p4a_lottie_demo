@@ -6,7 +6,9 @@ from kivy.lang import Builder
 
 KV = '''
 Label:
-    text: 'pretty!'
+    text: 'pretty! \nAnimation by yosif (https://lottiefiles.com/yoz) available at https://lottiefiles.com/42369-weather-wind'
+    text_size: self.width
+    halign: 'center'
 '''
 
 class Application(App):

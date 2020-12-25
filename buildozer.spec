@@ -94,7 +94,7 @@ android.presplash_lottie = "42369-weather-wind.json"
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 27
+android.api = 28
 
 # (int) Minimum API your APK will support.
 #android.minapi = 21

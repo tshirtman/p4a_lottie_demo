@@ -27,7 +27,7 @@ jobs:
 
       - uses: actions/cache@v2
         with:
-          path: .buildozer_local
+          path: .buildozer
           key: ${{ runner.os }}-${{ steps.get-date.outputs.date }}-${{ hashFiles('buildozer.spec') }}
 
       - name: Build with Buildozer
